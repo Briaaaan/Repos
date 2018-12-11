@@ -1,9 +1,17 @@
+.background{
+	background-color: gray;
+	min-height: 380px;
+	position: relative;
+}
 .nav {
 	background-color: #ACC18A;
-	overflow: auto;	
-}
+	overflow: hidden;	
+	position: sticky;
+}	
 .nav a {
+	font-family: sans-serif;
 	float: left;
+	display: auto;
 	color: #564946;
 	text-align: center;
 	padding: 14px;
@@ -19,4 +27,32 @@
 .nav a.active {
 	background-color:#4CAF50;
 	color: white;
+
 }
+.nav .search-container {
+  float: right;
+}
+.nav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width: auto;	
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+.nav .search-container button {
+  float: right;
+  padding: 7.5px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+ }
+.nav .search-container button:hover {
+  background: #5E5768;
+}
+
