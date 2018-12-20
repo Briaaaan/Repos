@@ -1,18 +1,9 @@
-.background{
-	background-color: green;
-	min-height: 375px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-}
 .nav {
 	background-color: #ACC18A ;
 	overflow: hidden;
 	position: fixed;
 	top: 0;
 	width: 100%;
-	
 }	
 .nav a {
 	font-family: Arial, Lato, sans-serif;
@@ -128,7 +119,7 @@
 	.nav .responsive .icon {
 		position: absolute;
 		right: 0;
-		top: 0;
+		top: 0;	
 	}
 }
 
